@@ -16,7 +16,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 import pandas as pd
-import tkinter.messagebox as tkmb
 
 from pathlib import Path
 import wget
@@ -69,7 +68,7 @@ fh['hospitalizedCurrently'] = fh['hospitalizedCurrently'].fillna(0)
 
 # Sort by Descending dates
 fh = fh.sort_values(by='date', ascending=True)
-print(fh.head())
+
 # Create Choropleth map
 fig = px.choropleth(fh,
                     locations=fh.index,
