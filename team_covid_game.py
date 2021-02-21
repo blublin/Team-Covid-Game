@@ -1,4 +1,4 @@
-# Run this app with `python app.py` and
+# Run this app with `python team_covid_game.py` and
 # visit http://127.0.0.1:8050/ in your web browser.
 # Authors: Maria Gorbunova, Ben Lublin, Caetano Brito, Julian Pearson Rickenbach
 # Date: 2/20/2021 11:51 PM
